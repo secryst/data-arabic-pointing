@@ -1,0 +1,11 @@
+---
+name: transformer
+:d_model: 64
+:nhead: 8
+:num_encoder_layers: 4
+:num_decoder_layers: 4
+:dim_feedforward: 256
+:dropout: 0.05
+:activation: relu
+:input_vocab_size: 53
+:target_vocab_size: 61
